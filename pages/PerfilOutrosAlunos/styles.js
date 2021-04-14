@@ -43,6 +43,29 @@ export const Scroll = styled.ScrollView`
     background-color:#3ca1d6;
 `;
 
+
+export const SkillBox = styled.View`
+    background-color: #279CDB;
+    padding: 10px 15px 10px 15px;
+    width:auto;
+    borderRadius: 5px;
+    marginRight: 10px;
+    marginBottom: 5px;
+    marginTop: 5px;
+`;
+
+export const SkillBoxContainer = styled.View`
+    flexWrap: wrap;
+    flex-direction:row;
+    width: 100%;
+`;
+
+export const SkillBoxText = styled.Text`
+    color: #FFF;
+    fontSize: 16px;
+    fontWeight: bold;
+`;
+
 export const ImageContainer = styled.View`
     flexWrap: wrap;
     flex-direction:row;
@@ -55,3 +78,9 @@ export const SubTitle = styled.Text`
     fontSize: 18px;
 `;
 
+export const ProfileImage = styled.Image`
+    height: 110px;
+    width: 110px;
+    margin-bottom: 20px;
+    border-radius: 55px;
+`;

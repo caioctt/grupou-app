@@ -12,9 +12,6 @@ import {
     ContainerTitleBox,
     TitleBox,
     Title,
-    SkillBoxContainer,
-    SkillBox,
-    SkillBoxText,
     ImageContainer,
     SubTitle
 } from './styles';

@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../../assets/profile_1.jpeg"
 import {
     ImageAvatar,
     Container
