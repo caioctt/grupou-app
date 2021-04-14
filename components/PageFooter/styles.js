@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  height: 25%;
+  height: 410px;
   align-items:center;
   background-color: #40163e;
   padding:40px 15px 0px 15px;
@@ -17,7 +17,7 @@ export const ContainerIcons = styled.View`
 `;
 
 export const ContactText = styled.Text`
-  fontSize: 18px;
+  fontSize: 19px;
   color: #FFF;
   margin: 10px;
 `;

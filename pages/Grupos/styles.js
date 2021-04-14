@@ -31,7 +31,6 @@ export const ContainerTitleBox = styled.View`
     width:100%;
     flex-direction:row;
     align-items:center;
-    marginBottom: 20px;
 `
 
 export const TitleBox = styled.Text`
@@ -65,5 +64,17 @@ export const SkillBoxText = styled.Text`
     color: #FFF;
     fontSize: 16px;
     fontWeight: bold;
+`;
+
+export const ImageContainer = styled.View`
+    flexWrap: wrap;
+    flex-direction:row;
+    width: 100%;
+`;
+
+export const SubTitle = styled.Text`
+    color:#828282;
+    marginBottom: 28px;
+    fontSize: 18px;
 `;
 

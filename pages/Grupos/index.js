@@ -3,6 +3,7 @@ import { SafeAreaView, Image } from 'react-native';
 import PercentageBar from '../../components/ExperienceBar/PercentageBar';
 import Footer from '../../components/PageFooter/index';
 import ButtonOutline from '../../components/ButtonOutlined/index'
+import ProfilePic from '../../components/ProfileImage/index';
 
 import {
     Scroll,
@@ -14,6 +15,8 @@ import {
     SkillBoxContainer,
     SkillBox,
     SkillBoxText,
+    ImageContainer,
+    SubTitle
 } from './styles';
 
 export default function Grupos()  {
@@ -34,96 +37,53 @@ export default function Grupos()  {
                 </TitleBox>
                 <ButtonOutline text = {"Ver mais"}/>
               </ContainerTitleBox>
-              <>
-                  <Image source={require('../../assets/icones/faces_avaliacao/icone_face_1.png')}></Image>
-              </>
+              <SubTitle> AV1 </SubTitle>
+              <ImageContainer>
+                  <ProfilePic img={require('../../assets/profile_1.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_2.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_3.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_4.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_5.jpg')}/>
+              </ImageContainer>
               <PercentageBar name = {"Tarefas Concluídas"} width = {98}/>
             </Box>
+
             <Box>
               <ContainerTitleBox>
                 <TitleBox>
-                    Minhas soft skills
+                   Fotografia
                 </TitleBox>
-                <ButtonOutline text = {"Editar"}/>
+                <ButtonOutline text = {"Ver mais"}/>
               </ContainerTitleBox>
-              <SkillBoxContainer>
-                <SkillBox>
-                    <SkillBoxText>
-                        Liderança
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        Empatia
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        Gestão de Conflitos
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        Comunicação
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        Liderança
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        Empatia
-                    </SkillBoxText>
-                </SkillBox>
-              </SkillBoxContainer>
+              <SubTitle> AV1 </SubTitle>
+              <ImageContainer>
+                  <ProfilePic img={require('../../assets/profile_1.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_2.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_3.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_4.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_5.jpg')}/>
+              </ImageContainer>
+              <PercentageBar name = {"Tarefas Concluídas"} width = {65}/>
             </Box>
+
             <Box>
               <ContainerTitleBox>
                 <TitleBox>
-                    Minhas hard skills de interesse
+                   Webdesign
                 </TitleBox>
-                <ButtonOutline text = {"Editar"}/>
+                <ButtonOutline text = {"Ver mais"}/>
               </ContainerTitleBox>
-              <SkillBoxContainer>
-                <SkillBox>
-                    <SkillBoxText>
-                        C#
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        Ilustração
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        Vetorização
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        Manipulação de Imagens
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        C++
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        HTML
-                    </SkillBoxText>
-                </SkillBox>
-                <SkillBox>
-                    <SkillBoxText>
-                        Prototipagem
-                    </SkillBoxText>
-                </SkillBox>
-              </SkillBoxContainer>
+              <SubTitle> AV1 </SubTitle>
+              <ImageContainer>
+                  <ProfilePic img={require('../../assets/profile_1.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_2.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_3.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_4.jpeg')}/>
+                  <ProfilePic img={require('../../assets/profile_5.jpg')}/>
+              </ImageContainer>
+              <PercentageBar name = {"Tarefas Concluídas"} width = {82}/>
             </Box>
+            
           </Container>
           <Footer />
         </Scroll>
