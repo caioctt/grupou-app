@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
+import Disciplinas from './pages/Disciplinas';
 import Grupos from './pages/Grupos';
 import Login from './pages/Login'
 import PerfilOutrosAlunos from './pages/PerfilOutrosAlunos';
@@ -12,7 +13,8 @@ export default function App() {
     // <Login />
     // <Grupos/>
     // <Skill/>
-    <PerfilOutrosAlunos/>
+    // <PerfilOutrosAlunos/>
+    <Disciplinas/>
 
   );
 }
